@@ -248,3 +248,28 @@ h3{
     width: 90px;
     margin: 100px auto;
    }
+   .All{
+        text-align: center;
+        border-color:#eb9f0e;
+        border-style: solid;
+   }
+   .bum{
+    width: 100%;
+    height:900px;
+   }
+   .Bionicle{
+          background-color: #f2c140;
+          margin-top: 1px;
+          position: absolute;
+          bottom: 730px;
+          left: 710px;
+          width: 390px;
+           height: 150px;
+           transition: 1s;
+   }
+   .Bionicle:hover{
+    z-index: 100;
+    width: 450px;
+    height: 200px;
+    left: 680px;
+   }
