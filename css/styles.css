@@ -1,14 +1,23 @@
+html{
+    background-image: linear-gradient(#f2c140,);
+}
 body{
     font-family: "Montserrat",sans-serif ;
     margin: 0;
    background-color: #f2c140;
+   background-image: url(/8-dars/images/fon.png);
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: -40px;
+   background-attachment: fixed;
 }
 h1{
     font-family: "Italiano",cursive;
-    text-align: center;
+    text-align:center;
     font-size: 50px;
     letter-spacing: 15px;
     text-transform: uppercase;
+    color: black;
 }
 h2,
 h3{
@@ -241,6 +250,7 @@ h3{
     font-size: 20px;
     font-weight: 600;
     padding: 100px;
+    margin-bottom: -10px;
    }
    hr{
     border-style: none;
@@ -273,3 +283,120 @@ h3{
     height: 200px;
     left: 680px;
    }
+   .navbutton{
+    background-color: green;
+    width: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+a{
+    color: lawngreen; 
+    text-decoration: none;
+}
+.dropdown .navbutton{
+    background-color: green;
+    margin-left: -30px;
+    display: block;
+}
+.dropdown{
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.navbutton:hover .dropdown{
+    display: block;   
+}
+.dropdown a{
+    color: lawngreen;
+}
+#red{
+    margin-left: 400px;
+    margin-top: -10px;
+}
+.button{
+    padding: 15px 20px;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+    border-style: none;
+}
+.button:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 20px 50px;
+    transition: 2s;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+input[type="text"], 
+input[type="email"], 
+textarea{
+    padding: 10px;
+    width: 90%;
+}
+.ball{
+    display: block;
+    margin-bottom: 5px;
+}
+.control{
+    margin-bottom: 10px;
+}
+.foot{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+input[type=radio], 
+input[type=checkbox]{
+     width: 1rem;
+     height: 1rem;
+}
+.go{
+    padding: 10px 5px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+.go:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    transition: 2s;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.go2{
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+}
+.go2:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    transition: 2s;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
